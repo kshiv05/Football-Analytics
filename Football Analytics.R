@@ -258,7 +258,7 @@ nrow(football_df)
 
 # We're also using secondary data in the form of ratings of teams. This will also be used for modeling. 
 
-ratings_df <- read.csv(file = "https://raw.githubusercontent.com/AyanB15/Big-Data-Anaytics--R/main/SoccerClubRatings.csv")
+ratings_df <- read.csv(file = "https://raw.githubusercontent.com/kshiv05/Football-Analytics-Using-R/main/SoccerClubRatings.csv")
 
 #Check for any NULL values
 colSums(is.na(ratings_df))
