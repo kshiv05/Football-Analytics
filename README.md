@@ -17,7 +17,7 @@ Click [here](https://github.com/kshiv05/Football-Analytics/blob/main/Data.rar) f
 ## Dataset description
 The data consists of the competition names, matches played in those competitions, team names, and data (including live results, lineups/subs, goalscorers, bookings, squads).
 
-## Conclusion
+## Exploratory Data Analysis:
 
   1. Manchester United and Chelsea are consistent in the home and away win categories. They both secured top 2 spots.
   2. Newcastle United is performing well and winning on home grounds, but they are not in picture when it comes to top 10 winning teams on away grounds.
@@ -26,3 +26,10 @@ The data consists of the competition names, matches played in those competitions
   5. A win of the visiting team (away team) is the second most likely outcome.
   6. A draw has been the least likely outcome, although the difference with the count of wins for away_team is nominal
   7. For all the top 3 winning teams, 66% matches have been won on home ground
+  
+## Conclusion
+
+  1. The results from the Auto ML were superior than the simple ML model with hyperparameter tuning. The classifier is able to perfectly distinguish betwwen the positive and negative class points perfectly.
+  2. From the Auto ML confusion matrix, the total error across each class is 0.36. The RMSE is also very good.
+  3. DeepLearning_grid_2_AutoML_4_20211208_140830_model_1 has the least error per class of 0.38.
+  4. The predictors that made the impact were: hTAway, hTHome, Odds.homeWin, Odds.draw and Odds.awayWin.
