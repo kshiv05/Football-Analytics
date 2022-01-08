@@ -12,7 +12,7 @@ Through this project done in R programming, we’ll be using in-game statistics 
 The primary data for the project has been sourced from [Football API](https://www.football-data.org/documentation/quickstart)
 This API gave us privilege of accessing data for 13 competitions in free version of subscription.  
 
-Click [here] (https://github.com/kshiv05/Football-Analytics/blob/main/Data.rar) for all the data used (primary data from API and secondary data in the form of ratings).
+Click [here](https://github.com/kshiv05/Football-Analytics/blob/main/Data.rar) for all the data used (primary data from API and secondary data in the form of ratings).
 
 ## Dataset description
 The data consists of the competition names, matches played in those competitions, team names, and data (including live results, lineups/subs, goalscorers, bookings, squads).
